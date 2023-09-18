@@ -9,8 +9,14 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "jotai": "^2.4.2",
     "next": "13.4.19",
     "react": "18.2.0",
     "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "@swc-jotai/debug-label": "^0.1.0",
+    "@swc-jotai/react-refresh": "^0.1.0",
+    "jotai-devtools": "^0.6.2"
   }
 }
